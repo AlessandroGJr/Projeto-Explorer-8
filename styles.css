@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    background-color: #EEEEEE;
+}
+
+/* NAV-BAR */
+
+header {
+    padding: 16px 112px;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    gap: 75.75px;
+    
+}
+
+header ul {
+    list-style: none;   
+    display: flex;
+    align-items: center;
+    
+    gap: 75.75px;   
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8D8D99;
+    line-height: 160%;
+}
+
+li:nth-child(2) a {
+    color: #202024;
+}
+
+header .profile-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+header input {
+    width: 100%;
+    border: 0;
+    background-color: #EEEEEE;
+    padding: 16px 12px;
+    border-radius: 5px;
+}
+
+/* Contéudo */
+
+main {
+    padding: 36px 115px 64px;
+    display: grid;
+    justify-content: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 390px);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px 22px;
+}
+
+main h2 {
+    font-weight: bold;
+    margin-bottom: 36px;
+    line-height: 160%;
+    font-size: 24px;
+}
+
+.pics {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+.pics h3 {
+    padding: 22px 22px 0;
+    font-weight: bold;
+    line-height: 160%;
+    color: #202024;
+    padding: 22.69px 22.69px 0;
+}
+
+.pics p {
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    margin: 12.29px 22.69px 22.69px;
+    line-height: 160%;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 600;
+    
+    padding: 7.56px;
+    width: fit-content;
+}
+
+
+footer {
+    background-color: #FFFFFF;
+    padding: 16px;    
+    text-align: center;
+}
